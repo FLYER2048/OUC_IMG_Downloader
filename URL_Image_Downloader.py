@@ -25,7 +25,7 @@ for tag in img_tags:
         img_urls.append(protocol_and_domain + original_src)
 
 # 指定保存图片的文件夹
-folder_name = "C:\\Users\\31987\\Downloads\\" + title + "_downloaded_images"
+folder_name = "D:\\Downloads\\" + title + "_downloaded_images"
 if not os.path.exists(folder_name):
     os.mkdir(folder_name)
 
