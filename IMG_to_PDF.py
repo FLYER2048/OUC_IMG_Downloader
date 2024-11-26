@@ -25,6 +25,6 @@ def merge_images_to_pdf(folder_path, pdf_file):
     images_to_pdf(image_files, pdf_file)
 
 # 示例用法
-folder_path = 'C:\\Users\\31987\\Downloads\\downloaded_images'
+folder_path = 'D:\\downloaded_images'
 pdf_file = folder_path + '\\' + 'output.pdf'
 merge_images_to_pdf(folder_path, pdf_file)
